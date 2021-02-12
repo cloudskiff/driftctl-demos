@@ -2,11 +2,18 @@
 
 
 ### Steph
-* Initial public ROADMAP.md & LIMITATIONS.md
-* CloudFormation Launch Stack
-* MacPorts availability
-* Add all-contributors specification (#188) @William
-* Special thanks to our 0.4.0 contributors! Suzuki Shota (@shota0809), @sfenman, and Herby Gillot (@herbygillot)
+* Release overview
+  * Terraform modules support
+  * SQS/SNS
+  * AWS Access Denied support
+  * Signed releases
+  * & much more
+* Community news:
+  * Initial public ROADMAP.md & LIMITATIONS.md
+  * CloudFormation Launch Stack
+  * MacPorts availability
+  * All-contributors
+  * Special thanks to our 0.4.0 contributors! Suzuki Shota (@shota0809), @sfenman, and Herby Gillot (@herbygillot)
 
 ### Martin
 * Handle Access denied errors when listing resources by triggering alerts (#152) @Martinfr
