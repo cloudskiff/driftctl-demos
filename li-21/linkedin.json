@@ -1,0 +1,81 @@
+{
+	"summary": {
+		"total_resources": 11,
+		"total_drifted": 1,
+		"total_unmanaged": 2,
+		"total_deleted": 0,
+		"total_managed": 9
+	},
+	"managed": [
+		{
+			"id": "microservice-azdr7l",
+			"type": "aws_iam_user"
+		},
+		{
+			"id": "microservice-azdr7l-arn:aws:iam::aws:policy/ReadOnlyAccess",
+			"type": "aws_iam_policy_attachment"
+		},
+		{
+			"id": "AKIASBXWQ3AYV3YMNAPM",
+			"type": "aws_iam_access_key"
+		},
+		{
+			"id": "aws-demo-azdr7l",
+			"type": "aws_s3_bucket"
+		},
+		{
+			"id": "sg-079a11d1187f42367",
+			"type": "aws_security_group"
+		},
+		{
+			"id": "sgrule-1066931954",
+			"type": "aws_security_group_rule"
+		},
+		{
+			"id": "vpc-d6e3c7ac",
+			"type": "aws_default_vpc"
+		},
+		{
+			"id": "rtb-064bf0725df0587b5",
+			"type": "aws_route_table"
+		},
+		{
+			"id": "igw-0a030dc6415972358",
+			"type": "aws_internet_gateway"
+		}
+	],
+	"unmanaged": [
+		{
+			"id": "microservice-azdr7l-arn:aws:iam::aws:policy/AdministratorAccess",
+			"type": "aws_iam_policy_attachment"
+		},
+		{
+			"id": "AKIASBXWQ3AYYYGKET4F",
+			"type": "aws_iam_access_key"
+		}
+	],
+	"deleted": null,
+	"differences": [
+		{
+			"res": {
+				"id": "aws-demo-azdr7l",
+				"type": "aws_s3_bucket"
+			},
+			"changelog": [
+				{
+					"type": "update",
+					"path": [
+						"Versioning",
+						"0",
+						"Enabled"
+					],
+					"from": false,
+					"to": true,
+					"computed": false
+				}
+			]
+		}
+	],
+	"coverage": 81,
+	"alerts": null
+}
