@@ -27,3 +27,11 @@ aws_lambda_function.qz8khv-lambda-demo.LastModified
 aws_iam_policy_attachment.driftctl_ro-arn:aws:iam::141177182257:policy/driftctl_ro
 aws_iam_access_key.AKIASBXWQ3AYR4KWTMHD
 aws_iam_policy.arn:aws:iam::141177182257:policy/driftctl_ro
+aws_iam_access_key.AKIASBXWQ3AYUFW6ZCWO
+aws_sqs_queue.https://sqs\.us-east-1\.amazonaws\.com/141177182257/queue-6qaidu\.fifo
+aws_s3_bucket_policy.test-resource-exposure-caxyxllsajfrzbwe
+aws_s3_bucket.s3-bucket-1-6qaidu
+aws_s3_bucket.driftctl-tfstates
+aws_s3_bucket.test-resource-exposure-caxyxllsajfrzbwe
+aws_iam_policy_attachment.endgame-s3-demo-arn:aws:iam::aws:policy/AmazonS3FullAccess
+aws_iam_user.endgame-s3-demo
