@@ -1,0 +1,53 @@
+{
+	"summary": {
+		"total_resources": 9,
+		"total_drifted": 0,
+		"total_unmanaged": 2,
+		"total_deleted": 0,
+		"total_managed": 7
+	},
+	"managed": [
+		{
+			"id": "tourdetools-demo-lhzogr",
+			"type": "aws_s3_bucket"
+		},
+		{
+			"id": "sg-0ad1d1645356f84be",
+			"type": "aws_security_group"
+		},
+		{
+			"id": "sgrule-3295519941",
+			"type": "aws_security_group_rule"
+		},
+		{
+			"id": "vpc-d6e3c7ac",
+			"type": "aws_default_vpc"
+		},
+		{
+			"id": "microservice-lhzogr",
+			"type": "aws_iam_user"
+		},
+		{
+			"id": "microservice-lhzogr-arn:aws:iam::aws:policy/ReadOnlyAccess",
+			"type": "aws_iam_policy_attachment"
+		},
+		{
+			"id": "AKIASBXWQ3AYZRHGQ3VO",
+			"type": "aws_iam_access_key"
+		}
+	],
+	"unmanaged": [
+		{
+			"id": "AKIASBXWQ3AYXT4FKF5Y",
+			"type": "aws_iam_access_key"
+		},
+		{
+			"id": "microservice-lhzogr-arn:aws:iam::aws:policy/AdministratorAccess",
+			"type": "aws_iam_policy_attachment"
+		}
+	],
+	"deleted": null,
+	"differences": null,
+	"coverage": 77,
+	"alerts": null
+}
