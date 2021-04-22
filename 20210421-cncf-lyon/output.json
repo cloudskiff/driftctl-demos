@@ -1,0 +1,59 @@
+{
+	"summary": {
+		"total_resources": 9,
+		"total_changed": 0,
+		"total_unmanaged": 3,
+		"total_missing": 0,
+		"total_managed": 6
+	},
+	"managed": [
+		{
+			"id": "microservice-2dwgrn",
+			"type": "aws_iam_user"
+		},
+		{
+			"id": "AKIASBXWQ3AYYBSOVCWN",
+			"type": "aws_iam_access_key"
+		},
+		{
+			"id": "cncflyon-demo-2dwgrn",
+			"type": "aws_s3_bucket"
+		},
+		{
+			"id": "sg-004c1790bd7f8af33",
+			"type": "aws_security_group"
+		},
+		{
+			"id": "sgrule-2077443078",
+			"type": "aws_security_group_rule"
+		},
+		{
+			"id": "vpc-d6e3c7ac",
+			"type": "aws_default_vpc"
+		}
+	],
+	"unmanaged": [
+		{
+			"id": "sgrule-3505321312",
+			"type": "aws_security_group_rule"
+		},
+		{
+			"id": "sgrule-3832448943",
+			"type": "aws_security_group_rule"
+		},
+		{
+			"id": "AKIASBXWQ3AY6LJPMKMS",
+			"type": "aws_iam_access_key"
+		}
+	],
+	"missing": null,
+	"differences": null,
+	"coverage": 66,
+	"alerts": {
+		"": [
+			{
+				"message": "You have unmanaged security group rules that could be false positives, find out more at https://docs.driftctl.com/limitations"
+			}
+		]
+	}
+}
